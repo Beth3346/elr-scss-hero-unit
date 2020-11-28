@@ -38,12 +38,12 @@ function clean() {
 
 // Copy HTML
 function copyIndex() {
-  return gulp.src('./src/index.html')
+  return gulp.src('./index.html')
     .pipe(gulp.dest(paths.app))
 }
 
 function copyImages() {
-  return gulp.src('./src/images/**/*.{gif,jpg,png,svg}')
+  return gulp.src('./images/**/*.{gif,jpg,png,svg}')
     .pipe(gulp.dest(paths.images))
 }
 
