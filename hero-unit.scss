@@ -1,0 +1,5 @@
+@import 'src/main';
+
+.hero-unit {
+  @include elr-hero-unit();
+}
