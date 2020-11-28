@@ -23,7 +23,7 @@
     "node-sass": "^5.0.0",
     "path": "^0.12.7"
   },
-  "homepage": "https://elr-scss-hero-units.netlify.app",
+  "homepage": "https://elr-scss-herounits.netlify.app",
   "keywords": [
     "sass, css, mixins, hero unit, layout"
   ],
