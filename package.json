@@ -31,7 +31,7 @@
   "main": "src/_main.scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Beth3346/elr-scss-hero-units.git"
+    "url": "https://github.com/Beth3346/elr-scss-hero-unit.git"
   },
   "dependencies": {
     "elr-scss-buttons": "0.0.5",
