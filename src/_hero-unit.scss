@@ -178,6 +178,22 @@
     }
   }
 
+  &.hero-unit-full-height {
+    height: 100vh;
+
+    .hero-unit-inner {
+      max-width: none;
+
+      .hero-unit-content {
+        padding-left: 32px;
+      }
+
+      .gatsby-image-wrapper {
+        height: 100%;
+      }
+    }
+  }
+
   .hero-unit-inner {
     max-width: $max-width;
     margin: 0 auto;
