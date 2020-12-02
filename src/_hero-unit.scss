@@ -98,11 +98,15 @@
   @media (min-width: 1025px) {
     &.hero-unit-slant {
       .hero-unit-content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
         &::after {
           content: "";
           position: absolute;
           top: -69px;
-          left: 65px;
+          left: 75px;
           z-index: 1;
           display: block;
           height: calc(100% + 150px);
@@ -181,11 +185,12 @@
   }
 
   &.hero-unit-full-height {
-    height: calc(100vh, $header-height);
+    height: calc(100vh - $header-height);
     max-height: 860px;
 
     .hero-unit-inner {
       max-width: none;
+      height: 100%;
 
       .hero-unit-content {
         padding-left: 64px;
