@@ -185,7 +185,7 @@
   }
 
   &.hero-unit-full-height {
-    height: calc(100vh - $header-height);
+    height: calc(100vh - #{$header-height});
     max-height: 860px;
 
     .hero-unit-inner {
