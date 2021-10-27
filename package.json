@@ -9,19 +9,20 @@
   },
   "scripts": {
     "build": "gulp clean && gulp",
-    "start": "gulp clean && gulp watch"
+    "prepare": "husky install",
+    "test": "gulp clean && gulp"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.13",
+    "browser-sync": "^2.27.6",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-sass": "^4.1.0",
-    "husky": "^4.3.0",
-    "node-sass": "^5.0.0",
-    "path": "^0.12.7"
+    "gulp-sass": "^5.0.0",
+    "husky": "^7.0.4",
+    "path": "^0.12.7",
+    "sass": "^1.43.4"
   },
   "homepage": "https://elr-scss-herounits.netlify.app",
   "keywords": [
@@ -35,12 +36,7 @@
   },
   "dependencies": {
     "elr-scss-buttons": "0.0.6",
-    "elr-scss-functions": "0.1.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
+    "elr-scss-functions": "1.1.6"
   },
   "resolutions": {
     "natives": "1.1.3"
