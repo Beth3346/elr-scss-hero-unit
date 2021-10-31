@@ -19,5 +19,5 @@
 /test
 /Gruntfile.js
 /images
-/dist/images
+/.husky
 # /gulpfile.js
