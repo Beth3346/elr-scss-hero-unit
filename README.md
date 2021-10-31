@@ -1,7 +1,7 @@
 # elr-scss-hero-unit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm](https://img.shields.io/npm/dm/elr-scss-hero-unit.svg?style=flat)]()
+[![npm](https://img.shields.io/npm/dm/elr-scss-hero-unit.svg?style=flat)](https://npmjs.com/package/elr-scss-hero-unit)
 
 a scss mixin for hero hero units
 
