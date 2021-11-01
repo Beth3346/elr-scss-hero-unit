@@ -1,5 +1,5 @@
 @use "sass:math";
-@import "node_modules/elr-scss-functions/src/main";
+@import "elr-scss-functions/src/main";
 @import "node_modules/elr-scss-buttons/src/main";
 
 @mixin elr-hero-unit($config: ()) {
