@@ -1,21 +1,22 @@
 @use "sass:math";
 @import "elr-scss-functions/src/main";
 @import "elr-scss-buttons/src/main";
+@import "elr-scss-config/src/main";
 
 @mixin elr-hero-unit($config: ()) {
   $shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 -1px 4px rgba(0, 0, 0, 0.4);
   $config: extend(
     (
-      background-color: #e2e2e2,
-      text-color: #333,
+      background-color: $lightest-gray,
+      text-color: $text-color,
       max-width: 1200px,
-      accent-color: #f81190,
-      button-color: #1976d2,
-      button-light-color: lighten(#1976d2, 15%),
+      accent-color: $secondary-color,
+      button-color: $primary-color,
+      button-light-color: lighten($primary-color, 15%),
       button-shadow: $shadow,
-      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3),
-      border-radius: 5px,
-      button-border: #1976d2,
+      text-shadow: $text-color,
+      border-radius: $border-radius,
+      button-border: $primary-color,
       border-width: 3px,
       header-height: 0,
     ),
